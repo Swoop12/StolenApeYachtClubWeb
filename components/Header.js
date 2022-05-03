@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import twitter from '../public/SocialLogos/Twitter.svg'
 import instagram from '../public/SocialLogos/instagram.svg'
 import discord from '../public/SocialLogos/Discord.svg'
-import openSea from '../public/SocialLogos/OpenSea.svg'
+import medium from '../public/SocialLogos/Medium.png'
 import etherScan from '../public/SocialLogos/Etherscan.svg'
 import youTube from '../public/SocialLogos/YouTube.png'
 import logo from '../public/SAYCLogo.png'
@@ -45,13 +45,13 @@ export default function Header () {
             alt='Discord'
           />
         </a>
-        <a href='https://opensea.io/collection/stolenapeyachtclub-1'>
+        <a href='https://medium.com/@trevoradcock_94151/the-stolen-ape-yacht-club-and-web3s-unspoken-fatal-flaw-213baf902c1b'>
           <Image
             width={socialHandleSize}
             height={socialHandleSize}
             className={styles.headerImg}
-            src={openSea}
-            alt='OpenSea'
+            src={medium}
+            alt='Medium'
           />
         </a>
         <a href='https://polygonscan.com/address/0x34b103b2771bec76e189aa5ff0a2a9beba01d32b'>
@@ -63,7 +63,7 @@ export default function Header () {
             alt='EtherScan'
           />
         </a>
-        <a href='https://www.youtube.com/watch?v=V0vaAt07iy4'>
+        <a href='https://www.youtube.com/watch?v=aU8568bIIDo'>
           <Image
             width={socialHandleSize}
             height={socialHandleSize}

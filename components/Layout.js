@@ -7,9 +7,9 @@ export default function Layout ({ children }) {
     <div>
       <Head>
         <title>Stolen Ape Yacht Club</title>
-        <meta name='dscription' content='The secret fatal flaw in Web3 ' />
-        <meta property='og:title' content='Stole Ape Yacht Club' />
-        <link rel='icon' href='/Logo.png' />
+        <meta name='description' content='The secret fatal flaw in Web3 ' />
+        <meta property='og:title' content='Stolen Ape Yacht Club' />
+        <link rel='icon' href='/SAYCLogo.png' />
       </Head>
       <header>
         <Header />
